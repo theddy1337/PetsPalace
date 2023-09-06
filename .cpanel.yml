@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/petspala/repositories/PetsPalace/
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
