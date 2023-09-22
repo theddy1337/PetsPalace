@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/petspala/repositories/PetsPalace/
-    - /bin/cp index.html $DEPLOYPATH
+    - export DEPLOYPATH=/home/petspala/repositories/PetsPalace
+    - /bin/cp -R * $DEPLOYPATH
